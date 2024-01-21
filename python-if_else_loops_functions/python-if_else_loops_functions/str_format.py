@@ -10,4 +10,6 @@ print(new_open_string.format("open source", "software"))
 print("sammy the {1} has a pet {0}".format("shark", "pilot fish"))
 ##Specifying Type
 print("sammy ate {0:f} percent of a {1}!".format(75, "pizza"))
+#limiting the places
+print("sammy ate {0:.3f}".format(75.1234))
 
