@@ -16,4 +16,6 @@ print("sammy ate {0:.3f}".format(75.1234))
 print("Sammy has {0:4} red {1:16}".format(5,"ballons"))
 #left align
 print("left align: {:<5}".format(5))
+#center word
+print("center word : {:^*20s}".format("david"))
 
