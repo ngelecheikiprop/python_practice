@@ -12,4 +12,6 @@ print("sammy the {1} has a pet {0}".format("shark", "pilot fish"))
 print("sammy ate {0:f} percent of a {1}!".format(75, "pizza"))
 #limiting the places
 print("sammy ate {0:.3f}".format(75.1234))
+#specifying field sizes
+print("Sammy has {0:4} red {1:16}".format(5,"ballons"))
 
