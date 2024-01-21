@@ -6,4 +6,8 @@ print(open_string.format("opensource"))
 #using with multiple place holders
 new_open_string =  "sammy loves {} {}"
 print(new_open_string.format("open source", "software"))
+#reordering with positional and keyword arguments
+print("sammy the {1} has a pet {0}".format("shark", "pilot fish"))
+##Specifying Type
+print("sammy ate {0:f} percent of a {1}!".format(75, "pizza"))
 
