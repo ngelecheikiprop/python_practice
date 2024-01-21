@@ -18,4 +18,6 @@ print("Sammy has {0:4} red {1:16}".format(5,"ballons"))
 print("left align: {:<5}".format(5))
 #center word
 print("center word : {:^*20s}".format("david"))
-
+#using formatters to organize data
+for i in range(3,13):
+    print("{:6d}, {:6d}, {:6d}".format(i, i*i, i * i * i))
