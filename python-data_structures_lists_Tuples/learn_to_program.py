@@ -22,3 +22,5 @@ print("how many srings:", first3.count("string"))
 first3[0] = "new string"
 for i in first3:
     print("{} : {}".format(first3.index(i), i))
+
+first3.append("another")
