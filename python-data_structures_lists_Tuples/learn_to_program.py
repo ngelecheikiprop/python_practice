@@ -14,5 +14,11 @@ for i in first3:
 
 print(first3[0] * 3)
 print("string" in first3)
+# checking the index
 print("index of string :", first3.index("string"))
+# counting
 print("how many srings:", first3.count("string"))
+# changing list items
+first3[0] = "new string"
+for i in first3:
+    print("{} : {}".format(first3.index(i), i))
