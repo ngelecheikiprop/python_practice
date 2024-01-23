@@ -24,3 +24,5 @@ for i in first3:
     print("{} : {}".format(first3.index(i), i))
 
 first3.append("another")
+for i in first3:
+    print("{} : {}".format(first3.index(i), i))
