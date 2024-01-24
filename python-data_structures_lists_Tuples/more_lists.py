@@ -4,3 +4,8 @@ print(fruits.count('banana'))
 print(fruits.count('tangerine'))
 print(fruits.index('banana'))
 print(fruits.index('banana' , 4))
+fruits.reverse()
+print(fruits)
+fruits.append('grapes')
+print(fruits)
+
