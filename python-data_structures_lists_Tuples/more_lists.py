@@ -8,4 +8,5 @@ fruits.reverse()
 print(fruits)
 fruits.append('grapes')
 print(fruits)
-
+fruits.sort()
+print(fruits)
